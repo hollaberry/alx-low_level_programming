@@ -13,8 +13,8 @@ if (ch == 'q' || ch == 'e')
 {
 continue;
 }
-ch++;
 putchar(ch);
+ch++;
 }
 putchar('\n');
 return (0);
