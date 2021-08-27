@@ -19,3 +19,4 @@ up++;
 }
 putchar('\n');
 return (0);
+}
