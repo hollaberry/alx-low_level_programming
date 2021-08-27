@@ -7,10 +7,12 @@
 int main(void)
 {
 char ch = 'a';
-while (ch <= 'z' && ch != 'q' && ch != 'e')
+while (ch <= 'z')
 {
 putchar(ch);
 ch++;
+if (ch == 'q' || ch == 'e')
+continue;
 }
 putchar('\n');
 return (0);
