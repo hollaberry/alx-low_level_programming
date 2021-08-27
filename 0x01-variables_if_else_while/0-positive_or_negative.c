@@ -4,6 +4,11 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/**
+ * main - To print positive or negative characteristics of n
+ * n is assigned a new value at every iteration
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
 int n;
