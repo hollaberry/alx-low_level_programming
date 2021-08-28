@@ -7,10 +7,9 @@
 int main(void)
 {
 int i = 48;
-convertToASCII(i);
 while (i < 58)
 {
-putchar(i);
+putchar('i');
 }
 putchar('\n');
 return (0);
