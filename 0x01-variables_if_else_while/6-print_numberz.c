@@ -6,10 +6,10 @@
  */
 int main(void)
 {
-int i = 48;
-while (i < 58)
+int i = 0;
+while (i < 9)
 {
-putchar('i');
+putchar(i);
 }
 putchar('\n');
 return (0);
