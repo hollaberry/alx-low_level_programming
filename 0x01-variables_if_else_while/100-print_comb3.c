@@ -11,7 +11,7 @@ for (i = 0; i <= 89; i++)
 {
 n = i / 10;
 p = i % 10;
-if (p == 0)
+if (p == 0 || p == n)
 continue;
 putchar(n + '0');
 putchar(p + '0');
