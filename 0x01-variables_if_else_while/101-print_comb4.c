@@ -6,29 +6,24 @@
  */
 int main(void)
 {
-int i = 0, n, q = 50, p;
-while (i <= 89)
+int i = 0, n, q;
+for (i = 48;  i < 58; i++)
 {
-i++;
-n = i / 10;
-p = i % 10;
-while (q < 58)
+for (n = 48; n < 58; n++)
 {
-q++;
-if (q > p || n > i)
+for (q = 50; q < 58; q++)
 {
-putchar(n + '0');
-putchar(p + '0');
+if (q > n && n > i)
+putchar(i);
+putchar(n);
 putchar(q);
 }
-else
-{
-continue;
-}
-if (n != 55 || p != 56)
+if (i != 55 || n != 56)
 {
 putchar(',');
 putchar(' ');
+}
+}
 }
 }
 }
