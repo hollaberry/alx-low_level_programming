@@ -10,6 +10,10 @@
  * Return: Always ch (success)
  */
 int _putchar(int ch);
+{
+putchar(ch);
+return (ch);
+}
 int main(void)
 {
 _putchar(72);
@@ -23,14 +27,4 @@ _putchar(111);
 _putchar(110);
 _putchar('\n');
 return (0);
-}
-/**
- * main- function to print char ch as argument
- *
- * Return Always ch (success)
- */
-int _putchar(int ch)
-{
-putchar(ch);
-return (ch);
 }
