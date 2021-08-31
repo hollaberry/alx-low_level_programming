@@ -4,14 +4,10 @@
  *
  * Return: Always ch (success)
  */
-/**
- * main - To print Holberton using _putchar function
- *
- * Return: Always ch (success)
- */
 int _putchar(int ch)
 {
 putchar(ch);
+return (0);
 }
 int main(void)
 {
