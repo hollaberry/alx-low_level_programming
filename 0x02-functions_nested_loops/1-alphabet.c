@@ -7,6 +7,7 @@ while (ch <= 'z')
 putchar(ch);
 ch++;
 }
+}
 /**
  * main- Prototype of function declaration
  *
