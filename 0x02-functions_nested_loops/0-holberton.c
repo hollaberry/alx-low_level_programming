@@ -9,7 +9,7 @@
  *
  * Return: Always ch (success)
  */
-int _putchar(int ch);
+int _putchar(int ch)
 {
 putchar(ch);
 return (ch);
