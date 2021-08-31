@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <main.h>
 /**
  * main- Prototype of function declaration
  *
