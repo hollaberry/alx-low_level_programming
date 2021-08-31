@@ -1,4 +1,9 @@
-#include <stdio.h>
+#include <main.h>
+/*
+ * main - Prototype of function to print alphabets
+ *
+ * Return Always 0 (success)
+ */
 void print_alphabet(void)
 {
 char ch = 'a';
@@ -7,15 +12,5 @@ while (ch <= 'z')
 putchar(ch);
 ch++;
 }
-}
-/**
- * main- Prototype of function declaration
- *
- * Return: Always ch (success)
- */
-int main(void)
-{
-print_alphabet();
-putchar('\n');
-return (0);
+return (0)
 }
