@@ -12,7 +12,6 @@
 int _putchar(int ch)
 {
 putchar(ch);
-return (ch);
 }
 int main(void)
 {
