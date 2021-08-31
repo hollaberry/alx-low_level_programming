@@ -31,7 +31,6 @@ return (0);
  */
 int _putchar(int ch)
 {
-int ch;
 putchar(ch);
 return (ch);
 }
