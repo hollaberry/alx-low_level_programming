@@ -1,5 +1,5 @@
-#include <stdio.h>
-/*
+#include <main.h>
+/**
  * main - Prototype of function to print alphabets
  *
  * Return Always 0 (success)
