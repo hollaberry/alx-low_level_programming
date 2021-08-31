@@ -1,4 +1,4 @@
-#include <main.h>
+#include <stdio.h>
 /*
  * main - Prototype of function to print alphabets
  *
