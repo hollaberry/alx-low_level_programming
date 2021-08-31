@@ -12,5 +12,5 @@ while (ch <= 'z')
 putchar(ch);
 ch++;
 }
-return (0)
+return (ch);
 }
