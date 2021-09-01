@@ -12,6 +12,7 @@ while (j < 10)
 {
 k = i * j;
 _putchar('0' + k);
+_putchar(',');
 _putchar('\n');
 j++;
 }
