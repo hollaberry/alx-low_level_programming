@@ -7,13 +7,9 @@
  */
 int print_last_digit(int c)
 {
-if (c < 0)
+if (c < 0 && c == INT_MIN)
 {
 c = (c * -1);
-}
-else if (c == INT_MIN)
-{
-  c = ((c * -1) + 1);
 }
 c = c % 10;
 _putchar(c + '0');
