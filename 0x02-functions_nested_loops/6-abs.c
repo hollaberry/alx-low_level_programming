@@ -4,7 +4,7 @@
  * @c: This is the integer to be check for its absolute value
  * Return: Always the abs value of the number
  */
-int _abs(int)
+int _abs(int c)
 {
-return (abs());
+return (abs(c));
 }
