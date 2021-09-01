@@ -6,5 +6,5 @@
  */
 int _abs(int)
 {
-_abs();
+return (int);
 }
