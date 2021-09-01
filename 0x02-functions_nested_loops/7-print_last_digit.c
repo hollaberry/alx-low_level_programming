@@ -1,4 +1,5 @@
 #include "main.h"
+#include <limits.h>
 /**
  * print_last_digit -function to check the absolute value of an integer
  * @c:This is the integer whose last digit needs to be picked up
