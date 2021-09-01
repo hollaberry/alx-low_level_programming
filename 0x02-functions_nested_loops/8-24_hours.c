@@ -1,14 +1,23 @@
 #include "main.h"
 /**
- * _abs -function to check the absolute value of an integer
- * @c: This is the integer to be check for its absolute value
- * Return: Always the abs value of the number
+ * jack_bauer -function to count the sec min and hours in a day
  */
-int _abs(int c)
+void jack_bauer(void)
 {
-if (c < 0)
+int i, j;
+while (i < 24)
 {
-c = (c * -1);
+j = 0;
+while (j < 60)
+{
+putchar(i / 10 + '0');
+putchar(i % 10 + '0');
+putchar(':');
+putchar(j / 10 + '0');
+putchar(j % 10 + '0');
+putchar('\n');
 }
-return (c);
+j++;
+}
+i++;
 }
