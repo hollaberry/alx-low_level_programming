@@ -24,10 +24,6 @@ else if (c > a && c > b)
 {
 largest = c;
 }
-else
-{
-printf("No largest number in the inputs");
-}
 
 return (largest);
 }
