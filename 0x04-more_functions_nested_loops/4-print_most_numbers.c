@@ -9,7 +9,7 @@ int i;
 for (i = 48; i <= 57; i++)
 {
 _putchar(i);
-if (i != 50 || i != 52)
+if (i == 50 || i == 52)
 continue;
 }
 _putchar('\n');
