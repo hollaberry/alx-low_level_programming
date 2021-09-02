@@ -1,0 +1,11 @@
+#include "main.h"
+#include <stdio.h>
+/**
+ * _isupper -function to check for upper case character
+ * @c: This is the integer to be check for its absolute value
+ * Return: return 
+ */
+int _isupper(int c)
+{
+isupper(C);
+}
