@@ -13,11 +13,11 @@ for (int i = 0; i < n; i++)
 for (int j = 0; j < n; j++)
 {
 if (j == i)
-putchar(92);
+_putchar(92);
 else
-putchar(' ');
+_putchar(' ');
 }
-putchar('\n');
+_putchar('\n');
 }
 
 }
