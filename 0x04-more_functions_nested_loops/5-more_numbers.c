@@ -5,22 +5,20 @@
  */
 void more_numbers(void)
 {
-int i = 0, n, p, j;
+int i, n, p, j;
 for (j = 0; j <= 9; j++)
 {
 for (i = 0; i <= 14; i++)
 {
 n = i / 10;
 p = i % 10;
-if (i > 10)
+if (i > 9)
 {
 putchar(n + '0');
 }
-if (i != 10)
-{
+
 putchar(p + '0');
 
-}
 }
 
 putchar('\n');
