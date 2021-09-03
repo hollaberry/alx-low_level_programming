@@ -5,13 +5,16 @@
  */
 void print_most_numbers(void)
 {
-int i;
-for (i = 0; i <= 57; i++)
+char n = 0;
+while (n <= 9)
 {
-if (i != 50 && i != 52)
+if (n != 2 && n != 4)
 {
-_putchar(i);
+_putchar('0' + n);
 }
+
+n++;
 }
 _putchar('\n');
+
 }
