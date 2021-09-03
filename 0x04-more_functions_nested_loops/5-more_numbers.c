@@ -14,14 +14,14 @@ n = i / 10;
 p = i % 10;
 if (i > 9)
 {
-putchar(n + '0');
+_putchar(n + '0');
 }
 
-putchar(p + '0');
+_putchar(p + '0');
 
 }
 
-putchar('\n');
+_putchar('\n');
 }
 return (0);
 }
