@@ -1,6 +1,10 @@
+#include "main.h"
 #include <stdio.h>
 /**
- * main - Program to print Fizz, Buzz and FizzBuzz when i = 3, 5 and *both res
+ * main - Program to print from 1 to 100
+ * But for multiple of three, Fizz should be printed
+ * For multiple of 5, Buzz should be printed
+ * For multiple of 3 & 5, FizzBuzz should be printed
  * Return: Always 0 (success)
  */
 
@@ -10,7 +14,7 @@ int i;
 
 for (i = 1; i <= 100; i++)
 {
-if ((i % 3 == 0) && !(i % 5 == 0) && !(i % 15 == 0))
+if ((i % 3 == 0) && !(i % 5 == 0))
 {
 printf(" Fizz");
 }
