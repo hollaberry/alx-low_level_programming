@@ -16,5 +16,5 @@ if (n > 9)
 print_number(n / 10);
 }
 _putchar((n % 10) + '0');
-return (0);
+return (n);
 }
