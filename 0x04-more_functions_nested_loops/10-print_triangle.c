@@ -16,7 +16,6 @@ _putchar(' ');
 else
 _putchar('#');
 }
-
 _putchar('\n');
 
 }
