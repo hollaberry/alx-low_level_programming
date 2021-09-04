@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_number - function to print numbers
+ * @n: variable argument which house to number to be printed
  * Return: Always 0 (success)
  */
 void print_number(int n)
