@@ -2,7 +2,7 @@
 #include <unistd.h>
 /**
  * print_rev - a function to write a string in reverse to std out
- * @str:pointer pointing to the string characters
+ * @s:pointer pointing to the string characters
  * Return: Always str (success)
  */
 
@@ -18,5 +18,4 @@ for (j = i; j >= 0; --j)
 {
 _putchar(s[j]);
 }
-_putchar('\n');
 }
