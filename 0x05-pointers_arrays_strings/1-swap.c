@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * reset_to_98 - function to change the value of a variable using a pointer
+ * swap_int - function to swap two variables using pointers
  * @a:first pointer to be swapped
  * @b:second pointer to be swapped
  * Return Always (0) (success)
  */
-void reset_to_98(int *a, int *b)
+void swap_int(int *a, int *b)
 {
 int y = *a;
 *a = *b;
