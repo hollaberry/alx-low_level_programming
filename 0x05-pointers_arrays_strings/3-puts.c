@@ -7,6 +7,7 @@
  */
 void _puts(char *str)
 {
+int i;
 i = _strlen(str);
 write(1, str, i);
 }
