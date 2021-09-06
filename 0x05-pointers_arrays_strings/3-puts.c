@@ -7,5 +7,5 @@
  */
 void _puts(char *str)
 {
-return (write(1, str, 64));
+write(1, str, 64);
 }
