@@ -1,9 +1,8 @@
 #include "main.h"
-#include <unistd.h>
 /**
  * rev_string - a function to reverse a string
  * @s:pointer pointing to the string characters
- * Return: Always s (success)
+ * Return: nothing
  */
 
 void rev_string(char *s)
@@ -13,10 +12,11 @@ int j;
 char k;
 
 while (*(s + len) != '\0')
-{
-len++;
-}
-len = len - 1;
+
+len += 1;
+
+len -= 1;
+
 while (j < len)
 {
 k = s[len];
