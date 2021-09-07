@@ -14,10 +14,8 @@ while (str[len] != '\0')
 len++;
 }
 
-for (i = 0.5 * (len); i < len; i++)
+for (len /= 2; str[len]!= '\0'; len++)
 {
-_putchar(str[i]);
-if ((len - 1) % 2 == 0)
 _putchar(str[len]);
 }
 _putchar('\n');
