@@ -15,11 +15,11 @@ while (s[i] != '\0')
 len++;
 }
 len = len - 1;
-*start = &s[0];
-*end = &s[len];
+start = &s[0];
+end = &s[len];
 do {
-len = *start;
-*start = *end;
-*end = len;
+len = start;
+start = end;
+end = len;
 } while (++start < --end);
 }
