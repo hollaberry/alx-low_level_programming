@@ -18,9 +18,6 @@ len = len - 1;
 for (i = 0; i < len; i = i + 2)
 {
 _putchar(str[i]);
-if (str[i] ==  '.')
-{
-_putchar(str[i]);
 }
 }
 _putchar('\n');
