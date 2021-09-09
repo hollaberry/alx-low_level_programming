@@ -4,14 +4,14 @@
  *
  * @dest: pointer to destination char
  * @src: pointer to source char
- * Return: char
+ * Return: Always (Dest)
  */
 char *_strcat(char *dest, char *src)
 {
 int i, j;
 for (i = 0; src[i] != '\0'; i++)
 {
-for (i = 0; dest[j] != '\0'; j++)
+for (j = 0; dest[j] != '\0'; j++)
 {
 ;
 }
