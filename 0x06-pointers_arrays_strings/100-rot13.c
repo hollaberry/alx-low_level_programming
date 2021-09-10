@@ -6,13 +6,13 @@
  */
 char *rot13(char *s)
 {
-int i, j, k;
+int i, j;
 char y[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 char pes[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 for (i = 0; str[i] != '\0'; i++)
 {
 
-for (j = 0; j < 54; j++)
+for (j = 0; j < 52; j++)
 {
 if (((s[i] <= 'z' && s[i] >= 'a') || (s[i] <= 'Z' && s[i] >= 'A'))
 && s[i] == y[j])
