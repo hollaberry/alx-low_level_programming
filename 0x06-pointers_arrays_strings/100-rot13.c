@@ -6,7 +6,7 @@
  */
 char *rot13(char *str)
 {
-int i, j;
+int i, j, k;
 char sep[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 char pes[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 for (i = 0; str[i] != '\0'; i++)
