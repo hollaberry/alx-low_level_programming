@@ -1,22 +1,23 @@
 #include "main.h"
 /**
  * rot13 - funtion to encode in rot13
- * @str:pointer to the string
+ * @s:pointer to the string
  * Return: Always (str)
  */
-char *rot13(char *str)
+char *rot13(char *s)
 {
 int i, j, k;
-char sep[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+char y[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 char pes[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 for (i = 0; str[i] != '\0'; i++)
 {
 
-for (j = 0, k = 0; j < 53; j++, k++)
+for (j = 0; j < 54; j++)
 {
-if (str[i] == sep[j])
+if (((s[i] <= 'z' && s[i] >= 'a') || (s[i] <= 'Z' && s[i] >= 'A'))
+&& s[i] == y[j])
 {
-str[i] = pes[k];
+str[i] = pes[j];
 break;
 }
 }
