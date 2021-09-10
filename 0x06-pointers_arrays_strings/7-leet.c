@@ -18,5 +18,7 @@ if (str[i] == sep[j])
 str[i] = pes[k];
 break;
 }
+}
+}
 return (str);
 }
