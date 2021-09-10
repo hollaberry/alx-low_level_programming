@@ -19,7 +19,7 @@ else
 {
 for (j = 0; sep[j] != '\0'; j++)
 {
-if (str[i - 1] == sep[j]
+if (str[i - 1] == sep[j])
 {
 k = 1;
 break;
