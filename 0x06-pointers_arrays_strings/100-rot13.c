@@ -6,17 +6,16 @@
  */
 char *rot13(char *str)
 {
-  int i, j, k;
+int i, j, k;
 char sep[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 char pes[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 for (i = 0; str[i] != '\0'; i++)
 {
-
-for (j = 0; j < 52; j++)
+for (j = 0, k = 0; j < 52; j++, k++)
 {
 if (str[i] == sep[j])
 {
-str[i] = pes[j];
+str[i] = pes[k];
 break;
 }
 }
