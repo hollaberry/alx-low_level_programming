@@ -6,6 +6,7 @@
  */
 char *cap_string(char *str)
 {
+char sep[] = ",\t;\n; .!?\"(){}";
 int i, k, j;
 for (i = 0; str[i] != '\0'; i++)
 {
