@@ -17,10 +17,10 @@ for (j = 0; j < 54; j++)
 if (((s[i] <= 'z' && s[i] >= 'a') || (s[i] <= 'Z' && s[i] >= 'A'))
 && s[i] == y[j])
 {
-str[i] = pes[j];
+s[i] = pes[j];
 break;
 }
 }
 }
-return (str);
+return (s);
 }
