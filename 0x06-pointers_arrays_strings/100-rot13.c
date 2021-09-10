@@ -11,7 +11,7 @@ char sep[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 char pes[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 for (i = 0; str[i] != '\0'; i++)
 {
-for (j = 0, k = 0; j < 52; j++, k++)
+for (j = 0, k = 0; j < 54; j++, k++)
 {
 if (str[i] == sep[j])
 {
