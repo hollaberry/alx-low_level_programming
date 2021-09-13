@@ -1,19 +1,16 @@
 #include "main.h"
 /**
- * _memset - Funtion to fill a memory with selected character
+ * _memset - Funtion to fill a memory witha constant byte
  * @s: The starting point to be filled with the character
- * @b: Character to be set in the selected memeory
- * @n: The chose amount of space to be filled
+ * @b: Character to be set in the selected memory (constant)
+ * @n: Max bytes to be use
  * Return: Always s
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-unsigned char* p = s;
-
-while (n--)
+for (unsigned int i = 0; n > 0; i++, n--)
 {
-*p++ = (unsigned char) b;
+s[i] = b;
 }
-
-return s;
+return (s);
 }
