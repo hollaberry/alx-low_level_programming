@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _strspn - Funtion to get the length of a prefix substring
+ * _strpbrk - search a string for any of a ste of bytes
  * @s: The string containing the full characters
- * @accept: string to be checked
- * Return: Always s
+ * @accept: string to match
+ * Return: pointer to the byte in s that matches on eof the bytes in accept
  */
 char *_strpbrk(char *s, char *accept)
 {
