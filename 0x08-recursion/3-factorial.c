@@ -5,13 +5,8 @@
  * Return: Always 0 (success)
  */
 int factorial(int n)
-{
 int j;
-if (n < 0)
-{
-return (-1);
-}
-for (j = n; j >= 0; j--)
+for (j = n; j > 0; j--)
 {
 j = n * (n - 1) * (j - 1);
 if (j <= 1)
