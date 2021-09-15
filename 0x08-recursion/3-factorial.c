@@ -10,10 +10,11 @@ int j;
 for (j = n; j > 0; j--)
 {
 j = n * ((n - 1) * (j - 1));
-if (j <= 1)
+if (j == 0 || j <= 1)
 {
 return (1);
 }
 return (n * factorial(n - 1));
 }
+return (-1);
 }
