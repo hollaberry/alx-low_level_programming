@@ -5,6 +5,7 @@
  * Return: Always 0 (success)
  */
 int factorial(int n)
+{
 int j;
 for (j = n; j > 0; j--)
 {
