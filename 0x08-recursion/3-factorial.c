@@ -6,15 +6,13 @@
  */
 int factorial(int n)
 {
-int j;
-for (j = n; j > 0; j--)
+if (n < 0)
 {
-j = n * ((n - 1) * (j - 1));
-if (j == 0 || j <= 1)
+return (-1);
+}
+else if (n == 0)
 {
 return (1);
 }
 return (n * factorial(n - 1));
-}
-return (-1);
 }
