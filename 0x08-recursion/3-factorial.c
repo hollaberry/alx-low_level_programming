@@ -7,19 +7,14 @@
 int factorial(int n)
 {
 int j;
-for (j = n; j >= 0; j--)
-{
-j = n * (n - 1) * (j - 1);
-if (j < 1)
-{
-return (1);
-}
-
-else if (n < 0)
+if (n < 0)
 {
 return (-1);
 }
-else if (n == 0)
+for (j = n; j >= 0; j--)
+{
+j = n * (n - 1) * (j - 1);
+if (j <= 1)
 {
 return (1);
 }
