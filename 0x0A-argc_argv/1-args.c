@@ -7,8 +7,6 @@
  */
 int main(int argc, char const *argv[])
 {
-(void)argv;
-int i;
 printf("%d\n", argc);
 return (0);
 }
