@@ -5,8 +5,9 @@
  * @argv: an argument of main that house argument of program in an array format
  * Return: Always 0
  */
-int main(int argc, char *argv[])
+int main(int argc, char const *argv[])
 {
-printf("%d\n", argc);
+(void)argv;
+printf("%i\n", argc - 1);
 return (0);
 }
