@@ -19,7 +19,7 @@ if (argc <= 1)
 printf("Error\n");
 return (-1);
 }
-else if (argc == 2)
+else
 {
 mul =  x * y;
 }
