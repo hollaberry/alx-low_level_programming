@@ -8,22 +8,16 @@
  */
 int main(int argc, char const *argv[])
 {
-int mul, i;
+int mul;
 int x = atoi(argv[1]);
 int y = atoi(argv[2]);
-
-for (i = 0; i < argc; i++)
-{
-if (argc <= 1)
+(void)argc;
+if (argc != 3)
 {
 printf("Error\n");
 return (1);
 }
-else
-{
 mul =  x * y;
-}
-}
 printf("%d\n", mul);
 return (0);
 }
