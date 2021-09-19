@@ -6,7 +6,7 @@
  * @s: pointer to string
  * Return: Always 0
  */
-int check(char *s)
+int check(const char *s)
 
 {
 int i;
@@ -22,17 +22,17 @@ return (0);
 }
 
 /**
- * main - Program that printsthe multiplication of two numbers
+ * main - Program that prints the addition of  numbers
  * @argc: an argument of main that counts number of argument passed
  * @argv: an argument of main that house argument of program in an array format
  * Return: Always 0
  */
 int main(int argc, char const *argv[])
 {
-int n = 0, k;
-while (--k)
+int n = 0;
+while (--argc)
 {
-if (check(argv[k]))
+if (check(argv[argc]))
 {
 printf("Error\n");
 return (1);
