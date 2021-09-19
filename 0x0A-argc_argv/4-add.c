@@ -13,13 +13,14 @@ int i;
 while (s[i] != '\0')
 {
 if (s[i] < '0' || s[i] > '9')
-{
 return (1);
+
 i++;
-}
+
 }
 return (0);
 }
+
 /**
  * main - Program that printsthe multiplication of two numbers
  * @argc: an argument of main that counts number of argument passed
@@ -29,7 +30,7 @@ return (0);
 int main(int argc, char const *argv[])
 {
 int n = 0, k;
-for (k  = argc; k > 0; --k)
+while (--k)
 {
 if (check(argv[k]))
 {
