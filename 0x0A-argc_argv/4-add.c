@@ -31,7 +31,7 @@ int main(int argc, char const *argv[])
 int n = 0, k;
 for (k  = argc; k > 0; --k)
 {
-if (check(argv[argc]))
+if (check(argv[k]))
 {
 printf("Error\n");
 return (1);
