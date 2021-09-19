@@ -23,6 +23,7 @@ else if (argc == 2)
 {
 mul =  x * y;
 }
+}
 printf("%d\n", mul);
 return (0);
 }
