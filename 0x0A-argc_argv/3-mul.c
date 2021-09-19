@@ -9,8 +9,8 @@
 int main(int argc, char const *argv[])
 {
 int mul, i;
-long int x = atoi(argv[1]);
-long int y = atoi(argv[2]);
+int x = atoi(argv[1]);
+int y = atoi(argv[2]);
 
 for (i = 0; i < argc; i++)
 {
@@ -23,6 +23,6 @@ else if (argc == 2)
 {
 mul =  x * y;
 }
-printf("%d\n", sum);
+printf("%d\n", mul);
 return (0);
 }
