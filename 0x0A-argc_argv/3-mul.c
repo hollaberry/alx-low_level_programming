@@ -17,7 +17,7 @@ if (argc != 3)
 printf("Error\n");
 return (1);
 }
-mul =  x * y;
-printf("%d\n", mul);
+mul = x * y;
+printf("%i\n", mul);
 return (0);
 }
