@@ -8,9 +8,9 @@
  */
 int main(int argc, char const *argv[])
 {
-int sum, i;
-int x = atoi(argv[1]);
-int y = atoi(argv[2]);
+int mul, i;
+long int x = atoi(argv[1]);
+long int y = atoi(argv[2]);
 
 for (i = 0; i < argc; i++)
 {
@@ -19,7 +19,9 @@ if (argc <= 1)
 printf("Error\n");
 return (-1);
 }
-sum =  x * y;
+else if (argc == 2)
+{
+mul =  x * y;
 }
 printf("%d\n", sum);
 return (0);
