@@ -16,12 +16,12 @@ if (size == 0)
 return (NULL);
 }
 i = 0;
-while(i < size)
+while (i < size)
 {
 i++;
 p[i] = c;
 }
-p[i] = '\0';
+
 return (p);
 free(p);
 }
