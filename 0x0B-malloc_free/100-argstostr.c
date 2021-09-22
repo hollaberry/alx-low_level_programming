@@ -14,13 +14,12 @@ return (NULL);
 for (i = 0; i < ac; i++)
 {
 for (j = 0; av[i][j] != '\0'; j++)
-{
 len++;
-}
+
 len++;
 }
 
-str = malloc(sizeof(char) * len);
+str = malloc(sizeof(char) * (len + 1);
 if (str == NULL)
 return (NULL);
 k = 0;
