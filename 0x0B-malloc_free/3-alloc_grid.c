@@ -20,7 +20,7 @@ else
 
 for (i = 0; i < height; i++)
 {
-p[i] = malloc(sizeof(**int) * width);
+p[i] = malloc(sizeof(**p) * width);
 if (p[i] == 0)
 {
 while (i--)
