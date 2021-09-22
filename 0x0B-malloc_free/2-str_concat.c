@@ -10,7 +10,6 @@ char *str_concat(char *s1, char *s2)
 {
 int len, len1, len2, j;
 char *p;
-
 for (len2 = 0; s2[len2] != '\0'; len2++)
 {
 ;
@@ -21,9 +20,9 @@ for  (len1 = 0; s1[len1] != '\0'; len1++)
 }
 len = len1 + len2;
 p = malloc(len *sizeof(char) + 1);
-if (p == 0)
+if (p == NULL)
 {
-return (0);
+return (NULL);
 }
 for (j = 0; j < len; j++)
 {
