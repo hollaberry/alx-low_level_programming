@@ -15,11 +15,9 @@ p = malloc(size * sizeof(char));
 if (size == 0)
 {
 return (NULL);
-}
-i = 0;
-while (i < size)
-{
-i++;
+ }
+ for (i = 0; i < size; i++)
+  {
 p[i] = c;
 }
 
