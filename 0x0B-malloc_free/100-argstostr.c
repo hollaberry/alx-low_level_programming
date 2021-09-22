@@ -3,7 +3,7 @@
  * argstostr - function that concatenates all the arguments of your program
  * @ac: arguments count
  * @av: argument vector
- * return: return str for success and NULL for failure
+ * Return: return str for success and NULL for failure
  */
 char *argstostr(int ac, char **av)
 {
