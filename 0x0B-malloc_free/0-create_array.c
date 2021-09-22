@@ -17,6 +17,11 @@ if (size == 0)
 return (NULL);
 }
 
+
+if (p == NULL)
+{
+return (0);
+}
 for (i = 0; i < size; i++)
 {
 p[i] = c;
