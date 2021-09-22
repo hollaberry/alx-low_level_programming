@@ -19,7 +19,7 @@ len++;
 len++;
 }
 
-str = (char**) malloc(sizeof(char) * (len + 1));
+str = malloc(sizeof(char) * (len + 1));
 if (str == NULL)
 return (NULL);
 k = 0;
