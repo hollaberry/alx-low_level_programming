@@ -30,10 +30,12 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 void *p;
 p = malloc(nmemb * size);
 
-if (nmemb == 0 or size == 0)
+if (nmemb == 0 || size == 0)
 return (NULL);
+
 if (p == NULL)
 return (NULL);
+
 _memset(p, 0, nmemb * size);
 return (p);
 }
