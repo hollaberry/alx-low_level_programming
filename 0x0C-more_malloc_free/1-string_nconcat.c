@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-#include <stdio.h>
 /**
  * string_nconcat - func that concat 2 strings and save in newly created mem
  * @s1: pointer to first string
