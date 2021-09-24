@@ -25,7 +25,6 @@ return (s);
  */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
-
 {
 void *p;
 p = malloc(nmemb * size);
