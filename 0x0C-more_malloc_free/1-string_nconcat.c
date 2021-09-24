@@ -28,7 +28,7 @@ len = len1 + len2;
 if (n < len2)
 p = malloc(sizeof(char) * (len1 + n + 1));
 else
-p = malloc(sizeof(char) * (len + 1));
+p = malloc(sizeof(char) * len);
 if (p == 0)
 {
 return (NULL);
