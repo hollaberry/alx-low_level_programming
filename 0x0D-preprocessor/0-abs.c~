@@ -1,0 +1,9 @@
+#include "3-function_like_macro.h"
+/**
+ * _abs - function to  get absolute value
+ * 
+ * Return: Always int
+ */
+int _abs(int i)
+{
+  if (i == 
