@@ -2,7 +2,7 @@
 /**
  * sum_them_all - function that returns the sum of all its parameters
  * @n: number of arguments
- * return: 0
+ * Return: the returning sum
  */
 int sum_them_all(const unsigned int n, ...)
 {
@@ -12,9 +12,9 @@ va_list ptr;
 va_start(ptr, n);
 
 for (i = 0; i < n; i++)
-sum = sum + va_arg(ptr, int);
+sum += va_arg(ptr, int);
 
 va_end(ptr);
-return sum;
+return (sum);
 }
   
