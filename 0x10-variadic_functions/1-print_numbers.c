@@ -13,9 +13,9 @@ va_start(list, n);
 for (i = 0; i < n; i++)
 {
 printf("%d", va_arg(list, int));
-if (*seperator != NULL)
+if (seperator != NULL)
 {
-printf("%c ", *seperator);
+printf("%c ", seperator);
 }
 }
 printf("\n");
