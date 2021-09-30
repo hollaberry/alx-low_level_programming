@@ -36,7 +36,7 @@ return (a * b);
  * op_div - function to find division of 2 integers
  * @a: first int
  * @b: second int
- * Return: (a / b)
+ * Return: division of two numbers
  */
 int op_div(int a, int b)
 {
