@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * @get_op_func: pointer to operator function
+ * get_op_func: pointer to operator function
  * @s: pointer to operator
  * Return: Operator function
  */
