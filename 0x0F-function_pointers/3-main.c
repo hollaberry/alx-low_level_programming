@@ -5,10 +5,11 @@
  * main - program that performs simple operation
  * @argc: arguments counter
  * @argv: arguments vector
- * Return: outcome of operation
+ * Return: Always 0 success
  */
-int main(int argc, const char *argv[])
-{ int num1, num2;
+int main(int argc, char *argv[])
+{
+int num1, num2;
 char *op;
 
 if (argc != 4)
@@ -27,8 +28,8 @@ printf("Error\n");
 exit(99);
 }
 
-if ((get_op_func(op) == '/' && argv[2] == 0) ||
-(get_op_func(op) == '%' && argv[2] == 0))
+if ((*op == '/' && num2 == 0) ||
+(*op == '%' && num2 == 0))
 {
 printf("Error\n");
 exit(100);
