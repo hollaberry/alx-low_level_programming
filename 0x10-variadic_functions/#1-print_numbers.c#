@@ -12,10 +12,12 @@ va_start(list, n);
 
 for (i = 0; i < n; i++)
 {
+if (seperator == NULL)
+    
 printf("%d", va_arg(list, int));
-if (seperator != NULL)
+ else if (seperator && i == 0)
 {
-printf("%s ", seperator);
+printf("%c ", 
 }
 }
 printf("\n");
