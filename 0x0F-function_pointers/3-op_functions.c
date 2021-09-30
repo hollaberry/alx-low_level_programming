@@ -3,7 +3,7 @@
  * op_add - function to add 2 integers
  * @a: first int
  * @b: second int
- * Return: (a + b)
+ * Return: sum of two numbers
  */
 int op_add(int a, int b)
 {
@@ -14,7 +14,7 @@ return (a + b);
  * op_sub - function to find the difference of 2 integers
  * @a: first int
  * @b: second int
- * Return: (a - b)
+ * Return: difference of two numbers
  */
 int op_sub(int a, int b)
 {
@@ -25,7 +25,7 @@ return (a - b);
  * op_mul - function to multiply 2 integers
  * @a: first int
  * @b: second int
- * Return: (a * b)
+ * Return: product of two numbers
  */
 int op_mul(int a, int b)
 {
@@ -44,10 +44,10 @@ return (a / b);
 }
 
 /**
- * opp_mod - function to get modulo a,b
+ * op_mod - function to get modulo a,b
  * @a: first int
  * @b: second int
- * Return: (a % b)
+ * Return: remainder of the division of numbers
  */
 int op_mod(int a, int b)
 {
