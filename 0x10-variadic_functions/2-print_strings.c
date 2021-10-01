@@ -14,12 +14,12 @@ va_start(list, n);
 for (i = 0; i < n; i++)
 {
 s = va_arg(list, char*);
-if (c != NULL)
+if (s != NULL)
 printf("%s", s);
- else
-   printf("(nil)");
- if (i != n - 1 && seperator != NULL)
-   printf("%s", seperator);
+else
+printf("(nil)");
+if (i != n - 1 && seperator != NULL)
+printf("%s", seperator);
 }
 va_end(list);
 printf("\n");
