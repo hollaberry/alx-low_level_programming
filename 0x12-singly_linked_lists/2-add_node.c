@@ -18,6 +18,8 @@ for (i = 0; str[i] != '\0'; i++)
 ;
 }
 new->len = i;
+if (new == NULL)
+return (NULL);
 new->str = strdup(str);
 if (new->str == NULL)
 {
