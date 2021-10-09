@@ -1,0 +1,1 @@
+The section shows the concept of singly linked list and its examples

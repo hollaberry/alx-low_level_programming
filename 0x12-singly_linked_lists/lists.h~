@@ -1,0 +1,18 @@
+#ifndef LISTS_H
+#define LISTS_H
+#include <stdio.h>
+#include <stdlib.h>
+#include <limits.h>
+#include <stdarg.h>
+
+
+typedef struct list_t
+{
+  char *p
+  unsigned int i;
+  struct list_t *h;
+} list_t;
+
+size_t print_list(const list_t *h);
+
+#endif
