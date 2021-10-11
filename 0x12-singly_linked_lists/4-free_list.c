@@ -10,6 +10,7 @@ while (head != NULL)
 if (head->str)
 {
 free(head->str);
+}
 free(head);
 head = head->next;
 }
