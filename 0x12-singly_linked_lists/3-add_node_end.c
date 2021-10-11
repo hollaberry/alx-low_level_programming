@@ -29,6 +29,7 @@ for (i = 0; str[i] != '\0'; i++)
 ;
 }
 new->len = i;
+new->next = NULL;
 if (*head == NULL)
 {
 *head = new;
@@ -38,7 +39,7 @@ else
 {
 while (temp->next != NULL)
 {
-new->next = temp;
+temp = temp->next;
 }
 
 temp->next = new;
