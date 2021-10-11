@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
- * void free_list - function to free a list_t type of list
- * @head - the list to be freed
+ * free_list - function to free a list_t type of list
+ * @head: - the list to be freed
  */
 void free_list(list_t *head)
 {
