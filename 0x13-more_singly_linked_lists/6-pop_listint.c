@@ -1,0 +1,18 @@
+#include "lists.h"
+/**
+ * @head: pointer to the address to be deleted
+ * Return: head node's data or 0 if linked list is empty
+ */
+int pop_listint(listint_t **head)
+{
+listint_t *temp;
+int data;
+if (*head == NULL)
+return (0);
+temp = *head;
+data = temp->n;
+*head = temp->next;
+free(temp->head);
+return (data);
+}
+  
