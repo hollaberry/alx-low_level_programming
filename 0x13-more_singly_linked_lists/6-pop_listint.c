@@ -14,7 +14,7 @@ return (0);
 temp = *head;
 data = temp->n;
 *head = temp->next;
-free(temp->head);
+free(temp);
 return (data);
 }
   
