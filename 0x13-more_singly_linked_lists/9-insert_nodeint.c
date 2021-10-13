@@ -37,10 +37,7 @@ new->next = temp->next; /* new next will now store past temp stored address */
 temp->next = new; /* temp next will now keep the address of new */
 return (new);
 }
-	  
-      
-      
-      
+    
 /**
  *add_nodeint - adds a new node at the beginning of a listint_t list.
  *@head : pointer to head node
