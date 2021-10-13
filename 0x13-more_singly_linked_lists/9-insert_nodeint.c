@@ -12,6 +12,7 @@ listint_t *temp, *new;
 unsigned int i = 1;
 if (head == NULL)
 return (NULL);
+
 if (idx == 0)
 {
 temp = add_nodeint(head, n); /* call function to add node at the beginning */
@@ -29,6 +30,7 @@ i++;
 new = malloc(sizeof(listint_t)); /* allocate memory to new */
 if (new == NULL)
 return (NULL);
+
 new->n = n; /* assign the value pass to function to new */
 new->next = temp->next; /* new next will now store past temp stored address */
 temp->next = new; /* temp next will now keep the address of new */
