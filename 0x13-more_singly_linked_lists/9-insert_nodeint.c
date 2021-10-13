@@ -9,7 +9,7 @@
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
 listint_t *temp, *new;
-unsigned int i = 1;
+unsigned int i;
 if (head == NULL)
 return (NULL);
 
@@ -19,6 +19,7 @@ temp = add_nodeint(head, n); /* call function to add node at the beginning */
 return (temp);
 }
 temp = *head; /* assign address of new value to temp */
+i = 1;
 while (i < idx)
 {
 temp = temp->next; /* tranverse through linked list until condition is false */
