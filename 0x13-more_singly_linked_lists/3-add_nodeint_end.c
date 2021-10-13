@@ -15,7 +15,6 @@ listint_t *new, *temp;
 new = malloc(sizeof(listint_t));
 if (new == NULL)
 {
-
 return (NULL);
 }
 
@@ -35,5 +34,5 @@ temp = temp->next;
 }
 temp->next = new;
 }
-return (new);
+return (*head);
 }
