@@ -5,6 +5,8 @@
 #include <stdarg.h>
 #include <unistd.h>
 #include <string.h>
+#include <stddef.h>
+#include <limits.h>
 
 /**
  * struct listint_s - singly linked list
