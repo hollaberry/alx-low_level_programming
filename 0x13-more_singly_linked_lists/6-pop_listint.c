@@ -17,4 +17,3 @@ data = temp->n;
 free(temp);
 return (data);
 }
-  
