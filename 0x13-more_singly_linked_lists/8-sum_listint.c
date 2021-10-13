@@ -1,9 +1,8 @@
 #include "lists.h"
 /**
- * get_nodeint_at_index - function that returns the nth node of a linked list
+ * sum_listint - function that returns the nth node of a linked list
  * @head: holder of new data
- * @index: index of value to be printed
- * Return: value at index or null if node does not exist
+ * Return: sum of values or 0 if head == null
  */
 int sum_listint(listint_t *head)
 {
