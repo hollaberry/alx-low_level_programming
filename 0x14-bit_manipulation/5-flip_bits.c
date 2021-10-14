@@ -17,13 +17,13 @@ return (count);
 }
 
 /**
- * int flip_bits - function to flip bits
+ * flip_bits - function to flip bits
  * @n: first binary value
  * @m: second binary value
  * Return: number of bits flipped
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-return (countset_bit(n^m));
+return (countset_bit(n ^ m));
 }
 
