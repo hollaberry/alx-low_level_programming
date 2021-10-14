@@ -13,7 +13,7 @@ while (n)
 count += n & 1;
 n >>= 1;
 }
-return count;
+return (count);
 }
 
 /**
@@ -24,6 +24,6 @@ return count;
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-return countset_bit(n^m);
+return (countset_bit(n^m));
 }
 
