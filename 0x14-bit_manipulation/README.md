@@ -1,0 +1,1 @@
+Bits and bitwise operation function creation
