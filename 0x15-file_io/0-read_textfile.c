@@ -20,7 +20,10 @@ if (fd == -1)
 return (0);
 
 buffer = malloc(sizeof(char) * letters);
-i = read(fd, buffer, i);
+if (buffer == NULL)
+return (0);
+
+i = read(fd, buffer, letters);
 
 if (write(STDOUT_FILENO, buffer, i) != i)
 return (0);
