@@ -3,8 +3,8 @@
  * read_textfile - function to read a text file and print to the standard out
  * @filename: name of the file to be read
  * @letters: number of letters to be read
- * Return: number of letters it could read or print. 0 
- * if file cant open or read or filename is null or write fails 
+ * Return: number of letters it could read or print.0
+ * if file cant open or read or filename is null or write fails
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
