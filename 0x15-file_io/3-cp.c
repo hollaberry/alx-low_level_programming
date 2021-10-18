@@ -26,7 +26,7 @@ exit(98);
 }
 
 file_to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
-while (len = read(file_from, buffer, BUFSIZ)) > 0)
+while ((len = read(file_from, buffer, BUFSIZ)) > 0)
 {
 if (file_to < 0 || write(file_to, buffer, len) != len)
 {
@@ -48,8 +48,10 @@ if (cl_f < 0 || cl_t < 0)
 {
 if (cl_f < 0)
 dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", file_from);
+
 if (cl_t < 0)
 dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", file_to);
+
 exit(100);
 }
 return (0);
