@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * append_text_to_file - function to append text at the end  of a file
+ * append_text_to_file - function to append text at the end of a file
  * @filename: name of the file to create
  * @text_content: a NULL terminated string to write to the file
  * Return: 1 on success, -1 on failure
- * if filename is NULL return -1 
+ * if filename is NULL return -1
  * if text_content is NULL, DONT ADD ANYTHING
  * if file already exIST RETURN 1 otherwise return -1
  */
