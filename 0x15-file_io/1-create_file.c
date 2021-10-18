@@ -4,7 +4,7 @@
  * @filename: name of the file to create
  * @text_content: a NULL terminated string to write to the file
  * Return: 1 on success, -1 on failure
- * file created must have rw------ permissions and if already exist 
+ * file created must have rw------ permissions and if already exist
  * permission must not change
  * if file already exist truncate
  */
