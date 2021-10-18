@@ -15,7 +15,7 @@ int fd, i = 0;
 if (filename == NULL)
 return (-1);
 
-fd = open(filename, O_RDONLY | O_APPEND);
+fd = open(filename, O_WRONLY | O_APPEND);
 if (fd == -1)
 return (-1);
 
