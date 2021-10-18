@@ -9,7 +9,7 @@
  * if file already exIST RETURN 1 otherwise return -1
  */
 
-int create_file(const char *filename, char *text_content)
+int append_text_to_file(const char *filename, char *text_content)
 {
 int fd, i = 0;
 if (filename == NULL)
@@ -23,6 +23,7 @@ if (text_content)
 {
 while (text_content[i])
 i++;
+
 if (write(fd, text_content, i) != i)
 return (-1);
 }
