@@ -5,7 +5,7 @@
  * Return: Always 0 (Success)
  */
 
-init main(void)
+int main(void)
 {
 int i;
 unsigned long int j, k, next, sum;
