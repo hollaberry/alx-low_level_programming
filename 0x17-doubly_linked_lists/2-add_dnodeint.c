@@ -23,7 +23,7 @@ new->n = n;
 new->next = *head;
 new->prev = NULL;
 
-
+if (*head)
 (*head)->prev = new;
 
 *head = new;
