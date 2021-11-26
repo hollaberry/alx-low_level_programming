@@ -29,7 +29,7 @@ return (NULL);
 
 i++;
 }
-new = malloc(sizeof(listint_t)); /* allocate memory to new */
+new = malloc(sizeof(dlistint_t)); /* allocate memory to new */
 if (new == NULL)
 return (NULL);
 
