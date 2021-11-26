@@ -18,8 +18,9 @@ while (h)
 if (h->n)
 {
 i++;
-h = h->next;
+
 }
+h = h->next;
 }
 return (i);
 }
