@@ -17,6 +17,6 @@ while (h)
 {
 i++;
 h = h->next;
-
+}
 return (i);
 }
