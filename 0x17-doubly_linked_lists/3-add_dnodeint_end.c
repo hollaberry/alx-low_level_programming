@@ -31,7 +31,6 @@ new->prev = NULL;
 return (new);
 }
 
-{
 while (temp->next != NULL)
 {
 temp = temp->next;
