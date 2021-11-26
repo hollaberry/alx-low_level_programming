@@ -15,7 +15,7 @@ temp = *head;
 if (head == NULL)
 return (NULL);
 
-new = malloc(sizeof(list_t));
+new = malloc(sizeof(dlistint_t));
 if (new == NULL)
 {
 return (NULL);
