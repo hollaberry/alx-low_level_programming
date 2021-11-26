@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * add_node_end - function that adds a node at the begining of a list
+ * add_dnodeint_end - function that adds a node at the begining of a list
  * @head: pointer to the first element of a node
  * @n: string pointer
  * Return: address of new element or NULL if it failed
@@ -24,7 +24,6 @@ return (NULL);
 new->n = n;
 
 new->next = NULL;
-new->prev = 
 if (*head == NULL)
 {
 *head = new;
