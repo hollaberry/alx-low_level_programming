@@ -1,6 +1,6 @@
 #include "list.h"
 /**
- * size_t print_dlistint - function to print all the elements of a doubly list
+ * print_dlistint - function to print all the elements of a doubly list
  * @h: list to be printed pointer
  * Return: Number of nodes
  */
@@ -13,7 +13,7 @@ if (!h)
 return (0);
 }
 
-while (h->next != NULL)
+while (h)
 {
 printf("%d\n", h->n);
 h = h->next;
