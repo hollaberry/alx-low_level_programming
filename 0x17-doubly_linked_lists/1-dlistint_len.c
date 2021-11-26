@@ -15,11 +15,7 @@ return (0);
 
 while (h)
 {
-if (h->n)
-{
 i++;
-
-}
 h = h->next;
 }
 return (i);
