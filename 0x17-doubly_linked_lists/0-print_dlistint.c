@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 /**
  * print_dlistint - function to print all the elements of a doubly list
  * @h: list to be printed pointer
