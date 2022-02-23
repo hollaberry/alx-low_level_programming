@@ -59,7 +59,8 @@ if (*head == NULL)
 {
 (*head) = new;
 new->next = NULL;
-} else
+}
+else
 {
 new->next = (*head);
 (*head) = new;
